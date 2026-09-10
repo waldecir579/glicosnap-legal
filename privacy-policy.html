@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — GlicoSnap</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #1a1a2e; background: #f8f9fa; }
+    .container { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+    header { background: #0d1b2a; color: #fff; padding: 32px 16px; text-align: center; }
+    header h1 { font-size: 1.6rem; font-weight: 700; }
+    header p { font-size: 0.9rem; opacity: 0.8; margin-top: 8px; }
+    h2 { font-size: 1.2rem; margin-top: 32px; margin-bottom: 12px; color: #0d1b2a; }
+    p, li { font-size: 0.95rem; margin-bottom: 10px; }
+    ul { padding-left: 20px; }
+    .highlight { background: #e8f4fd; border-left: 4px solid #2196f3; padding: 12px 16px; border-radius: 4px; margin: 16px 0; }
+    .warning { background: #fff3cd; border-left: 4px solid #ffc107; padding: 12px 16px; border-radius: 4px; margin: 16px 0; }
+    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #dee2e6; font-size: 0.85rem; color: #6c757d; text-align: center; }
+    a { color: #2196f3; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Política de Privacidade</h1>
+    <p>GlicoSnap — Aplicativo de apoio ao acompanhamento de diabetes</p>
+    <p>Última atualização: 6 de setembro de 2026</p>
+  </header>
+  <div class="container">
+
+    <h2>1. Quem somos</h2>
+    <p>O GlicoSnap é um aplicativo de apoio ao acompanhamento de diabetes, desenvolvido para ajudar usuários a registrar leituras de glicemia, acompanhar refeições e visualizar estimativas nutricionais. Este aplicativo <strong>não é um dispositivo médico</strong> e não substitui orientação, diagnóstico ou tratamento realizado por profissionais de saúde.</p>
+
+    <h2>2. Dados que coletamos</h2>
+    <p>O GlicoSnap funciona principalmente de forma <strong>local no seu dispositivo</strong>. Os dados abaixo são armazenados localmente, exceto quando indicado:</p>
+    <ul>
+      <li><strong>Nome e e-mail</strong> — usados para criar e identificar sua conta local.</li>
+      <li><strong>Senha</strong> — armazenada apenas como hash criptográfico (SHA-256 + salt); nunca em texto puro.</li>
+      <li><strong>Leituras de glicemia</strong> — valores, data/hora e contexto (jejum, pré/pós-refeição) inseridos por você.</li>
+      <li><strong>Metas glicêmicas</strong> — faixa mínima e máxima configuradas por você.</li>
+      <li><strong>Fotos de refeições</strong> — imagens capturadas pela câmera ou selecionadas da galeria, usadas apenas para análise nutricional local. <strong>Não enviamos fotos para servidores nesta versão.</strong></li>
+      <li><strong>Configurações de idioma e tema</strong> — preferências de exibição.</li>
+      <li><strong>Status Premium</strong> — indicador local de ativação (demonstração nesta versão).</li>
+    </ul>
+
+    <div class="highlight">
+      <strong>Importante:</strong> Nesta versão, todos os dados são armazenados exclusivamente no seu dispositivo via SharedPreferences. Nenhum dado é transmitido para servidores externos.
+    </div>
+
+    <h2>3. Permissões que solicitamos</h2>
+    <ul>
+      <li><strong>Câmera</strong> — para capturar fotos de refeições quando você escolhe essa opção.</li>
+      <li><strong>Galeria/Fotos</strong> — para selecionar imagens de refeições já existentes.</li>
+      <li><strong>Internet</strong> — reservada para futuras integrações (análise por IA remota, sincronização).</li>
+    </ul>
+    <p>Você pode negar permissões a qualquer momento nas configurações do Android. O app continuará funcionando, mas o recurso correspondente ficará indisponível.</p>
+
+    <h2>4. Como usamos seus dados</h2>
+    <ul>
+      <li>Exibir histórico e gráficos de glicemia.</li>
+      <li>Classificar leituras conforme sua meta glicêmica configurável.</li>
+      <li>Gerar estimativas nutricionais de refeições (localmente, nesta versão).</li>
+      <li>Exportar relatórios em PDF (quando você solicita).</li>
+      <li>Personalizar idioma, tema e preferências.</li>
+    </ul>
+
+    <h2>5. Compartilhamento de dados</h2>
+    <p><strong>Não compartilhamos seus dados com terceiros nesta versão.</strong> Não vendemos, alugamos ou transferimos dados pessoais ou de saúde. O compartilhamento de relatórios em PDF é iniciado exclusivamente por você, por meio do compartilhamento nativo do Android.</p>
+
+    <h2>6. Retenção e exclusão</h2>
+    <p>Seus dados permanecem no dispositivo até que você os exclua. Você pode:</p>
+    <ul>
+      <li>Excluir leituras individuais de glicemia no histórico.</li>
+      <li>Excluir toda a conta e dados associados em <strong>Configurações → Conta → Excluir minha conta</strong>.</li>
+      <li>Limpar todos os dados do app nas configurações do Android.</li>
+    </ul>
+    <p>Para solicitar exclusão ou esclarecimentos, acesse nossa <a href="delete-account.html">página de exclusão de conta</a> ou entre em contato pelo e-mail abaixo.</p>
+
+    <h2>7. Segurança</h2>
+    <ul>
+      <li>Senhas são armazenadas como hash SHA-256 com salt aleatório.</li>
+      <li>Dados locais ficam no sandbox do aplicativo, protegidos pelo sistema Android.</li>
+      <li>Não transmitimos dados pela internet nesta versão.</li>
+    </ul>
+
+    <div class="warning">
+      <strong>Aviso de segurança:</strong> Se você perder o acesso ao dispositivo sem ter exportado seus dados, eles não poderão ser recuperados, pois não mantemos cópias em servidores.
+    </div>
+
+    <h2>8. Anúncios e assinaturas</h2>
+    <p>Nesta versão, o GlicoSnap não exibe anúncios reais nem processa cobranças. Funcionalidades Premium e de anúncios estão em modo de demonstração local e serão ativadas apenas quando integradas a serviços reais (Google Play Billing e Google Mobile Ads), momento em que esta política será atualizada.</p>
+
+    <h2>9. Crianças</h2>
+    <p>O GlicoSnap não é destinado a crianças menores de 13 anos. Não coletamos intencionalmente dados de menores. Se você acredita que um menor forneceu dados, entre em contato para exclusão.</p>
+
+    <h2>10. Alterações nesta política</h2>
+    <p>Podemos atualizar esta política periodicamente. Notificaremos sobre mudanças significativas por meio do aplicativo ou desta página. A data da última atualização está indicada no topo.</p>
+
+    <h2>11. Contato</h2>
+    <p>Para dúvidas, solicitações de exclusão ou questões de privacidade, entre em contato:</p>
+    <p><strong>E-mail:</strong> suporte@glicosnap.app<br>
+    <strong>Website:</strong> <a href="https://glicosnap.app">https://glicosnap.app</a></p>
+
+    <h2>12. Legislação aplicável</h2>
+    <p>Esta política é regida pelas leis brasileiras, incluindo a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).</p>
+
+    <footer>
+      <p>GlicoSnap — Política de Privacidade v1.0 — 6 de setembro de 2026</p>
+      <p>Este documento é válido para a versão atual do aplicativo. Atualizações serão publicadas nesta página.</p>
+    </footer>
+  </div>
+</body>
+</html>
