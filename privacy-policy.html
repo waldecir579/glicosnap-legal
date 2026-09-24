@@ -3,111 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
   <title>Política de Privacidade — GlicoSnap</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #1a1a2e; background: #f8f9fa; }
-    .container { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
-    header { background: #0d1b2a; color: #fff; padding: 32px 16px; text-align: center; }
-    header h1 { font-size: 1.6rem; font-weight: 700; }
-    header p { font-size: 0.9rem; opacity: 0.8; margin-top: 8px; }
-    h2 { font-size: 1.2rem; margin-top: 32px; margin-bottom: 12px; color: #0d1b2a; }
-    p, li { font-size: 0.95rem; margin-bottom: 10px; }
-    ul { padding-left: 20px; }
-    .highlight { background: #e8f4fd; border-left: 4px solid #2196f3; padding: 12px 16px; border-radius: 4px; margin: 16px 0; }
-    .warning { background: #fff3cd; border-left: 4px solid #ffc107; padding: 12px 16px; border-radius: 4px; margin: 16px 0; }
-    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #dee2e6; font-size: 0.85rem; color: #6c757d; text-align: center; }
-    a { color: #2196f3; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; color: #182433; background: #f6f8fb; }
+    .wrap { max-width: 800px; margin: 0 auto; padding: 24px 18px 56px; }
+    header { background: #0d1b2a; color: white; padding: 28px 22px; border-radius: 12px; }
+    h1 { margin: 0 0 8px; font-size: 1.65rem; }
+    h2 { margin-top: 30px; color: #0d1b2a; font-size: 1.2rem; }
+    p, li { font-size: 0.98rem; }
+    li { margin: 8px 0; }
+    .notice { background: #fff3cd; border-left: 4px solid #d99b00; padding: 14px 16px; margin: 18px 0; }
+    .info { background: #e9f5ff; border-left: 4px solid #2586c7; padding: 14px 16px; margin: 18px 0; }
+    a { color: #126ca3; }
+    code { overflow-wrap: anywhere; }
+    footer { border-top: 1px solid #d6dde5; margin-top: 42px; padding-top: 18px; color: #5b6673; font-size: .88rem; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Política de Privacidade</h1>
-    <p>GlicoSnap — Aplicativo de apoio ao acompanhamento de diabetes</p>
-    <p>Última atualização: 6 de setembro de 2026</p>
-  </header>
-  <div class="container">
+  <main class="wrap">
+    <header>
+      <h1>Política de Privacidade</h1>
+      <p>GlicoSnap — política de privacidade</p>
+      <p>Versão de referência: 1.4.1+13 · Atualizada: 24 de setembro de 2026</p>
+    </header>
 
-    <h2>1. Quem somos</h2>
-    <p>O GlicoSnap é um aplicativo de apoio ao acompanhamento de diabetes, desenvolvido para ajudar usuários a registrar leituras de glicemia, acompanhar refeições e visualizar estimativas nutricionais. Este aplicativo <strong>não é um dispositivo médico</strong> e não substitui orientação, diagnóstico ou tratamento realizado por profissionais de saúde.</p>
+    <div class="notice"><strong>Importante:</strong> esta política descreve o comportamento e as limitações conhecidos da versão 1.4.1+13. Recursos que dependem de configuração externa podem ficar indisponíveis até serem habilitados e testados.</div>
 
-    <h2>2. Dados que coletamos</h2>
-    <p>O GlicoSnap funciona principalmente de forma <strong>local no seu dispositivo</strong>. Os dados abaixo são armazenados localmente, exceto quando indicado:</p>
+    <h2>1. O que o GlicoSnap faz</h2>
+    <p>O GlicoSnap ajuda a registrar leituras de glicemia, acompanhar histórico e obter estimativas nutricionais de fotos de refeições. O app possui cinco abas: Início, Glicemia, IA Foto, Relatórios e Perfil. A interface oferece Português, English e Español. Não há uma aba de comunidade. Esta página não afirma que login Google, recuperação por e-mail ou serviços remotos já estejam configurados em produção.</p>
+    <p>O GlicoSnap não é dispositivo médico. Ele não mede glicemia, não diagnostica, não trata, não cura e não substitui um profissional de saúde. As classificações e estimativas podem estar incompletas ou incorretas.</p>
+
+    <h2>2. Dados tratados no dispositivo</h2>
+    <p>O app pode armazenar localmente dados que você cria ou importa, incluindo nome e preferências de perfil, idioma e tema, leituras de glicemia, metas, quota e histórico de análises. A inclusão manual e a importação de glicemia do Health Connect são gravadas no histórico local pelo fluxo atual do app. Dados demonstrativos locais não devem ser interpretados como dados de outra pessoa ou como vínculo real de Família.</p>
+    <p>O app solicita acesso de câmera ou galeria somente quando você escolhe capturar ou selecionar uma foto. O arquivo local pode permanecer acessível no caminho indicado pelo sistema e pelo app até ser removido pelo usuário ou pelo sistema operacional.</p>
+
+    <h2>3. Dados enviados a serviços remotos</h2>
+    <p>O app possui uma integração HTTPS com o backend configurado. Em um cadastro ou login remoto, o backend pode receber dados de conta, como nome, e-mail, cidade, tipo de diabetes, metas e consentimento informado na tela. Login Google e recuperação de senha por e-mail dependem da configuração dos respectivos serviços e podem ficar indisponíveis enquanto essa configuração não estiver concluída.</p>
+    <p>Quando você toca em <strong>Analisar foto</strong> com uma sessão remota, o app exibe um aviso antes do envio e pede sua autorização. Se você continuar, a imagem selecionada é codificada e enviada ao endpoint de análise do backend. O serviço de IA configurado no servidor pode processar a imagem para gerar uma estimativa e o backend pode armazenar o resultado normalizado associado à conta. A implementação auditada não grava o arquivo bruto da foto no banco do endpoint, mas esta política não presume um plano, não promete retenção zero e não declara prazos para o serviço de IA, caches, logs ou terceiros. Esses prazos e condições ainda precisam ser confirmados pelo titular.</p>
+    <p>Os recursos de Família e de sincronização entre celulares dependem de servidor configurado e de consentimentos separados e explícitos. Qualquer envio de glicemias/observações, restauração em outro aparelho ou disponibilização a familiar autorizado deve ser iniciado pelo usuário e autorizado no fluxo correspondente. Não há promessa de backup integral, sincronização automática em segundo plano ou migração automática entre usuários. Isso não é uma comunidade pública.</p>
+
+    <h2>4. Health Connect</h2>
+    <p>Quando você autoriza a permissão de leitura e inicia o fluxo manual, o GlicoSnap consulta registros de glicemia dos últimos 30 dias no Health Connect e importa uma cópia para o histórico local. A leitura não é automática, não equivale a consentimento de nuvem e o fluxo auditado não escreve registros no Health Connect. A permissão pode ser revogada nas configurações do Health Connect ou do Android.</p>
+
+    <h2>5. Como usamos os dados</h2>
     <ul>
-      <li><strong>Nome e e-mail</strong> — usados para criar e identificar sua conta local.</li>
-      <li><strong>Senha</strong> — armazenada apenas como hash criptográfico (SHA-256 + salt); nunca em texto puro.</li>
-      <li><strong>Leituras de glicemia</strong> — valores, data/hora e contexto (jejum, pré/pós-refeição) inseridos por você.</li>
-      <li><strong>Metas glicêmicas</strong> — faixa mínima e máxima configuradas por você.</li>
-      <li><strong>Fotos de refeições</strong> — imagens capturadas pela câmera ou selecionadas da galeria, usadas apenas para análise nutricional local. <strong>Não enviamos fotos para servidores nesta versão.</strong></li>
-      <li><strong>Configurações de idioma e tema</strong> — preferências de exibição.</li>
-      <li><strong>Status Premium</strong> — indicador local de ativação (demonstração nesta versão).</li>
+      <li>Exibir histórico, gráficos e classificações de apoio baseadas na faixa configurada.</li>
+      <li>Importar manualmente leituras de glicemia dos últimos 30 dias do Health Connect quando você autoriza e inicia o fluxo.</li>
+      <li>Processar a foto solicitada e apresentar uma estimativa nutricional aproximada.</li>
+      <li>Manter a sessão, as preferências e os recursos de conta escolhidos.</li>
+      <li>Gerar relatórios que você decide compartilhar pelo mecanismo nativo do Android.</li>
     </ul>
 
-    <div class="highlight">
-      <strong>Importante:</strong> Nesta versão, todos os dados são armazenados exclusivamente no seu dispositivo via SharedPreferences. Nenhum dado é transmitido para servidores externos.
-    </div>
+    <h2>6. Compartilhamento e terceiros</h2>
+    <p>Não vendemos dados pessoais ou de saúde. O backend e o provedor de IA recebem somente os dados necessários para os fluxos remotos que você solicita, conforme descrito acima, quando esses serviços estiverem configurados. O compartilhamento de um PDF é iniciado por você. Os serviços de autenticação, hospedagem, banco, logs e processamento de IA podem aplicar suas próprias práticas; o titular ainda precisa confirmar os fornecedores e os prazos aplicáveis antes de transformar esta página em política oficial.</p>
+    <p>O app não exibe anúncios reais nesta versão. Não há compra ativa, assinatura, período grátis ou trial anunciado nesta versão. Eventuais recursos Premium locais abertos para teste não comprovam uma assinatura paga nem autorização geral de usuários. O fluxo de compras precisa ser configurado e testado antes de qualquer comunicação comercial.</p>
 
-    <h2>3. Permissões que solicitamos</h2>
-    <ul>
-      <li><strong>Câmera</strong> — para capturar fotos de refeições quando você escolhe essa opção.</li>
-      <li><strong>Galeria/Fotos</strong> — para selecionar imagens de refeições já existentes.</li>
-      <li><strong>Internet</strong> — reservada para futuras integrações (análise por IA remota, sincronização).</li>
-    </ul>
-    <p>Você pode negar permissões a qualquer momento nas configurações do Android. O app continuará funcionando, mas o recurso correspondente ficará indisponível.</p>
+    <h2>7. Retenção e exclusão</h2>
+    <p>Não declaramos um prazo fixo de retenção para o backend, logs, backups ou o provedor de IA porque esses prazos ainda não foram confirmados. Os dados locais permanecem no dispositivo até serem apagados pelo app, pelo Android ou pelo usuário.</p>
+    <p>Você pode iniciar a exclusão pelo app em <strong>Perfil → Excluir conta</strong>. Em uma sessão remota, o app envia o pedido ao endpoint autenticado e, após sucesso, limpa a sessão e os dados locais. A exclusão remota do backend usa a remoção da conta e as relações previstas no banco. Se a sessão for apenas local, a exclusão limpa o armazenamento local, sem apagar eventual informação remota que não esteja associada a essa sessão.</p>
+    <p>Também é possível consultar a <a href="delete-account.html">página de exclusão de conta</a>. Não envie senhas, tokens ou chaves por e-mail.</p>
 
-    <h2>4. Como usamos seus dados</h2>
-    <ul>
-      <li>Exibir histórico e gráficos de glicemia.</li>
-      <li>Classificar leituras conforme sua meta glicêmica configurável.</li>
-      <li>Gerar estimativas nutricionais de refeições (localmente, nesta versão).</li>
-      <li>Exportar relatórios em PDF (quando você solicita).</li>
-      <li>Personalizar idioma, tema e preferências.</li>
-    </ul>
+    <h2>8. Segurança</h2>
+    <p>As transmissões para o endpoint configurado usam HTTPS. A proteção local também depende do sandbox e dos controles do Android. Nenhum segredo de servidor ou chave de provedor deve ser colocado no app. Nenhuma medida de segurança é absoluta; mantenha o aparelho atualizado e não compartilhe sua sessão.</p>
 
-    <h2>5. Compartilhamento de dados</h2>
-    <p><strong>Não compartilhamos seus dados com terceiros nesta versão.</strong> Não vendemos, alugamos ou transferimos dados pessoais ou de saúde. O compartilhamento de relatórios em PDF é iniciado exclusivamente por você, por meio do compartilhamento nativo do Android.</p>
-
-    <h2>6. Retenção e exclusão</h2>
-    <p>Seus dados permanecem no dispositivo até que você os exclua. Você pode:</p>
-    <ul>
-      <li>Excluir leituras individuais de glicemia no histórico.</li>
-      <li>Excluir toda a conta e dados associados em <strong>Configurações → Conta → Excluir minha conta</strong>.</li>
-      <li>Limpar todos os dados do app nas configurações do Android.</li>
-    </ul>
-    <p>Para solicitar exclusão ou esclarecimentos, acesse nossa <a href="delete-account.html">página de exclusão de conta</a> ou entre em contato pelo e-mail abaixo.</p>
-
-    <h2>7. Segurança</h2>
-    <ul>
-      <li>Senhas são armazenadas como hash SHA-256 com salt aleatório.</li>
-      <li>Dados locais ficam no sandbox do aplicativo, protegidos pelo sistema Android.</li>
-      <li>Não transmitimos dados pela internet nesta versão.</li>
-    </ul>
-
-    <div class="warning">
-      <strong>Aviso de segurança:</strong> Se você perder o acesso ao dispositivo sem ter exportado seus dados, eles não poderão ser recuperados, pois não mantemos cópias em servidores.
-    </div>
-
-    <h2>8. Anúncios e assinaturas</h2>
-    <p>Nesta versão, o GlicoSnap não exibe anúncios reais nem processa cobranças. Funcionalidades Premium e de anúncios estão em modo de demonstração local e serão ativadas apenas quando integradas a serviços reais (Google Play Billing e Google Mobile Ads), momento em que esta política será atualizada.</p>
+    <div class="info"><strong>Backup:</strong> esta versão não deve ser anunciada como tendo backup em nuvem concluído. Exporte ou compartilhe relatórios somente quando você decidir fazê-lo. A perda do aparelho pode impedir a recuperação de dados que existam apenas no armazenamento local.</div>
 
     <h2>9. Crianças</h2>
-    <p>O GlicoSnap não é destinado a crianças menores de 13 anos. Não coletamos intencionalmente dados de menores. Se você acredita que um menor forneceu dados, entre em contato para exclusão.</p>
+    <p>O app não foi projetado para crianças. Se você identificar dados de uma criança tratados indevidamente, escreva para <a href="mailto:suporteglicosnap.app@gmail.com">suporteglicosnap.app@gmail.com</a> para orientar o pedido apropriado.</p>
 
-    <h2>10. Alterações nesta política</h2>
-    <p>Podemos atualizar esta política periodicamente. Notificaremos sobre mudanças significativas por meio do aplicativo ou desta página. A data da última atualização está indicada no topo.</p>
+    <h2>10. Alterações</h2>
+    <p>Esta política deve ser atualizada quando o comportamento do app, backend, SDKs, provedor de IA, compras, anúncios ou Health Connect mudar. A data no topo identifica a versão publicada.</p>
 
-    <h2>11. Contato</h2>
-    <p>Para dúvidas, solicitações de exclusão ou questões de privacidade, entre em contato:</p>
-    <p><strong>E-mail:</strong> suporte@glicosnap.app<br>
-    <strong>Website:</strong> <a href="https://glicosnap.app">https://glicosnap.app</a></p>
+    <h2>11. Contato e solicitação de exclusão</h2>
+    <p>Para dúvidas sobre privacidade e solicitações de exclusão, escreva para <a href="mailto:suporteglicosnap.app@gmail.com">suporteglicosnap.app@gmail.com</a>. Informe somente o e-mail da conta e o pedido necessário; nunca envie sua senha, token ou chave.</p>
+    <p>A <a href="delete-account.html">página de exclusão</a> explica os caminhos disponíveis no app, no Android e por e-mail.</p>
 
-    <h2>12. Legislação aplicável</h2>
-    <p>Esta política é regida pelas leis brasileiras, incluindo a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).</p>
+    <h2>12. Legislação</h2>
+    <p>Esta política é apresentada em português e deve ser interpretada em conjunto com a legislação brasileira aplicável, incluindo a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).</p>
 
     <footer>
-      <p>GlicoSnap — Política de Privacidade v1.0 — 6 de setembro de 2026</p>
-      <p>Este documento é válido para a versão atual do aplicativo. Atualizações serão publicadas nesta página.</p>
+      <p>GlicoSnap — Política de Privacidade.</p>
+      <p>Contato: <a href="mailto:suporteglicosnap.app@gmail.com">suporteglicosnap.app@gmail.com</a></p>
     </footer>
-  </div>
+  </main>
 </body>
 </html>
